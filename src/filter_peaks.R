@@ -4,8 +4,8 @@ library(dplyr)
 
 ###
 DATA_DIR <- '../data/'
-NAME <- 'H3K9me3_HCT116.ENCFF723YDW.hg19'
-#NAME <- 'H3K9me3_HCT116.ENCFF070HBN.hg19'
+#NAME <- 'H3K9me3_HCT116.ENCFF723YDW.hg19'
+NAME <- 'H3K9me3_HCT116.ENCFF070HBN.hg19'
 OUT_DIR <- '../images/'
 ###
 
@@ -24,7 +24,7 @@ ggsave(paste0('filter_peaks.', NAME, '.init.hist.pdf'), path = OUT_DIR)
 # Remove long peaks
 bed_df <- bed_df %>%
   arrange(-len) %>%
-  filter(len < 5000)
+  filter(len < 2500) # 5000 for NAME1
 
 ggplot(bed_df) +
   aes(x = len) +
