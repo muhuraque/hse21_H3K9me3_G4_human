@@ -23,3 +23,7 @@
 
 Получаем такие гистограммы: 
 
+![init1](./images/photo_2021-06-09_21-56-46.jpg)
+![filt1](./images/photo_2021-06-09_21-56-46.jpg)
+![init2](./images/photo_2021-06-09_21-56-46.jpg)
+![filt2](./images/photo_2021-06-09_21-56-46.jpg)
