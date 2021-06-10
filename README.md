@@ -67,3 +67,6 @@ bedtools intersect  -a DeepZ.bed   -b  H3K9me3_HCT116.merge.hg19.bed  >  H3K9me3
 ![photo_2021-06-10_08-48-00](https://user-images.githubusercontent.com/26713337/121471589-a1324300-c9c8-11eb-8025-69ee2f9a3c5e.jpg)
 Получилось не очень много пересечений. 
 Теперь посмотрим на гистограмму, которая сделана также, как и предыдущие. 
+![photo_2021-06-10_09-09-21](https://user-images.githubusercontent.com/26713337/121474003-1fdcaf80-c9cc-11eb-84a3-fe2b6a88f0cc.jpg)
+
+
