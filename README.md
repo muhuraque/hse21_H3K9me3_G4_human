@@ -69,4 +69,7 @@ bedtools intersect  -a DeepZ.bed   -b  H3K9me3_HCT116.merge.hg19.bed  >  H3K9me3
 Теперь посмотрим на гистограмму, которая сделана также, как и предыдущие. 
 ![photo_2021-06-10_09-09-21](https://user-images.githubusercontent.com/26713337/121474003-1fdcaf80-c9cc-11eb-84a3-fe2b6a88f0cc.jpg)
 
-
+#### Визуализируем в геномном браузере исходные участки стр-ры ДНК, а также их пересечения с гистоновой меткой.
+![Screenshot from 2021-06-10 09-23-24](https://user-images.githubusercontent.com/26713337/121475031-962de180-c9cd-11eb-9663-8a9aae2283b9.png)
+chr1:2,785,801-2,790,201
+Вот пересечение.
