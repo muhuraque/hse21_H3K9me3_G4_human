@@ -6,7 +6,8 @@ library(dplyr)
 DATA_DIR <- '../data/'
 #NAME <- 'H3K9me3_HCT116.ENCFF723YDW.hg19'
 #NAME <- 'H3K9me3_HCT116.ENCFF070HBN.hg19'
-NAME <- 'DeepZ'
+#NAME <- 'DeepZ'
+NAME <- 'H3K9me3_HTC116.intersect_with_DeepZ'
 OUT_DIR <- '../images/'
 ###
 
