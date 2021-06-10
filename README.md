@@ -32,3 +32,11 @@
 
 #### Смотрим, где располагаются пики гистоновой метки относительно аннотированных генов. 
 
+Я сделал файл chip_seeker.R и запустил его. Получились такие пай-чарт графики:
+
+![1](./images/chip_seeker.H3K9me3_HCT116.ENCFF723YDW.hg19.filtered.plotAnnoPie.png)
+
+![2](./images/chip_seeker.H3K9me3_HCT116.ENCFF070HBN.hg19.filtered.plotAnnoPie.png)
+
+
+#### Объединяем два набора отфильтрованных ChIP-seq пиков с помощью утилиты bedtools merge.
